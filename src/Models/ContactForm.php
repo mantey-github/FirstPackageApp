@@ -6,7 +6,7 @@
  * Time: 3:40 PM
  */
 
-namespace MyVendor\contactform\Models;
+namespace mantey\contactform\Models;
 
 use Illuminate\Database\Eloquent\Model;
 class ContactForm extends Model

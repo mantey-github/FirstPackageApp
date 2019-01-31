@@ -7,12 +7,8 @@
  * Time: 4:45 PM
  */
 
-namespace MyVendor\contactform;
+namespace mantey\contactform;
 use Illuminate\Support\ServiceProvider;
-
-
-// MyVendor\contactform\src\ContactFormServiceProvider.php
-
 
 class ContactFormServiceProvider extends ServiceProvider {
 

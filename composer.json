@@ -1,5 +1,5 @@
 {
-    "name": "MyVendor/contactform",
+    "name": "mantey/contactform",
     "description": "A contact form package for laravel",
     "authors": [
         {
@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MyVendor\\contactform\\": "src/"
+            "mantey\\contactform\\": "src/"
         }
     }
 

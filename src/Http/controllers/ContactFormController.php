@@ -6,11 +6,11 @@
  * Time: 3:37 PM
  */
 
-namespace MyVendor\contactform\Http\controllers;
+namespace mantey\contactform\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use MyVendor\contactform\Models\ContactForm;
+use mantey\contactform\Models\ContactForm;
 
 
 class ContactFormController extends Controller {
