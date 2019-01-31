@@ -8,7 +8,7 @@
  */
 
 namespace mantey\contactform;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class ContactFormServiceProvider extends ServiceProvider {
 

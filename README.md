@@ -11,4 +11,13 @@ Edit your composer.json file, add this in the require property:
 fetch the package by:
 
     composer update
+    
+Add the service provider in your config/app.php file
+
+    'mantey\contactform\ContactFormServiceProvider::class'
+
+Publish the package
+
+    php artisan vendor:publish
+
 
