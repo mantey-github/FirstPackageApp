@@ -8,11 +8,17 @@
         }
     ],
     "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mantey\\contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "mantey\\contactform\\": "src/"
         }
     }
-
 
 }
