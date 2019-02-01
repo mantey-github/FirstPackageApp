@@ -1,13 +1,18 @@
 {
     "name": "mantey/contactform",
-    "description": "A contact form package for laravel",
+    "description": "A simple contact form package for laravel",
+    "keywords": ["contact", "email", "laravel"," php", "forms"],
+    "license": "MIT",
     "authors": [
         {
             "name": "daniel mantey",
             "email": "contactmantey@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.6.0",
+        "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
+    },
     "extra": {
         "laravel": {
             "providers": [

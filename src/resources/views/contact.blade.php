@@ -13,33 +13,29 @@
 <body>
 
 <div style="width: 500px; margin: 90px auto 0;">
-    @if(session('status'))
-        <div class="alert alert-success">
-            {{ session('status') }}
+
+    @if (session('message') )
+        <div class="alert alert-success" role="alert">
+            {{ session('message')}}
         </div>
     @endif
 
-    <h3>Contact Us</h3>
-
-        @if(Session::has('message'))
-            {{Session::get("message")}}
-        @endif
+    <h3>Contact Form</h3>
 
     <form action="{{route('contact')}}" method="POST">
         @csrf
         <div class="form-group">
             <label for="exampleFormControlInput1">Your name</label>
-            <input type="text" class="form-control" name="name" id="exampleFormControlInput" placeholder="John Doe">
+            <input type="text" class="form-control" name="name" id="name" >
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
-                   placeholder="name@example.com">
+            <input type="email" class="form-control" name="email" id="email">
         </div>
 
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Enter Your Message</label>
-            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

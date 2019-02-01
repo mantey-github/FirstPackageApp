@@ -1,23 +1,27 @@
 Laravel Contact Form
 ==============
-This package is a simple laravel package for embedding contact form into your laravel application.
+This package is a simple laravel package for embedding contact form into your laravel application. For Laravel >=5.5*
 
 # Installation
 
-Edit your composer.json file, add this in the require property:
+In order to install mantey/contactform in your Laravel project, just run the composer require command from your terminal:
 
-    "mantey/contactform": "1.0.3"
+    "mantey/contactform": "1.0.*"
     
-fetch the package by:
+Run the migration command to migrate the database tables:
 
-    composer update
+    php artisan migrate
     
-Add the service provider in your config/app.php file
+And finally, start the application by running:
 
-    'mantey\contactform\ContactFormServiceProvider::class'
+    php artisan serve
+    
+#Usage
+    
+    Visit http://localhost:8000/contact in your browser to view contactform
 
-Publish the package
+## License
 
-    php artisan vendor:publish
+mantey/contactform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
