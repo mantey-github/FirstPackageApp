@@ -16,7 +16,7 @@ And finally, start the application by running:
 
     php artisan serve
     
-#Usage
+# Usage
     
     Visit http://localhost:8000/contact in your browser to view contactform
 
