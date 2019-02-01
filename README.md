@@ -6,7 +6,7 @@ This package is a simple laravel package for embedding contact form into your la
 
 Edit your composer.json file, add this in the require property:
 
-    "mantey/contactform": "1.*"
+    "mantey/contactform": "1.0.3"
     
 fetch the package by:
 
